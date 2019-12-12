@@ -1,0 +1,33 @@
+{
+  "name": "markupent",
+  "version": "1.0.0",
+  "description": "webpack development to generate static markup pages using pug and sass ...and more.",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiba328/markupent.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "shiba mitsue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiba328/markupent/issues"
+  },
+  "homepage": "https://github.com/shiba328/markupent#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.1.0",
+    "standard-version": "^7.0.1"
+  }
+}
