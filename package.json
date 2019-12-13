@@ -1,6 +1,6 @@
 {
   "name": "markupent",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "webpack development to generate static markup pages using pug and sass ...and more.",
   "main": "index.js",
   "scripts": {
