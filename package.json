@@ -1,10 +1,10 @@
 {
   "name": "markupent",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "webpack development to generate static markup pages using pug and sass ...and more.",
   "main": "index.js",
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version -m \"chore(release): %s [skip ci]\""
   },
   "husky": {
     "hooks": {
